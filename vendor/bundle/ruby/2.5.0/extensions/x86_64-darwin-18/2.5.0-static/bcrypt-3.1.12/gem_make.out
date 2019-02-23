@@ -1,0 +1,19 @@
+current directory: /Users/ajk/Desktop/port_sample/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+/Users/ajk/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190223-76496-na5urx.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ajk/Desktop/port_sample/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/ajk/Desktop/port_sample/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/ajk/Desktop/port_sample/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20190223-76496-1h9of4f
